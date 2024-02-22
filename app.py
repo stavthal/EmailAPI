@@ -8,11 +8,11 @@ app = Flask(__name__)
 emails = ['<EMAIL>', '<EMAIL>']
 
 # Filepaths for html templates
-welcome_email_path = 'static/OKTO RO HTML (With Cards and Deep Links)/Welcome email (only registration) - RO.html'
-welcome_email_direct_verification_level_1_path = 'static/OKTO RO HTML (With Cards and Deep Links)/Welcome email direct verification level 1 - RO.html'
-reminder_email_for_verification_path = 'static/OKTO RO HTML (With Cards and Deep Links)/Reminder email for verification - RO.html'
-confirmation_level_2_path= 'static/OKTO RO HTML (With Cards and Deep Links)/Confirmation of verification (level2) - RO.html'
-confirmation_level_1_path = 'static/OKTO RO HTML (With Cards and Deep Links)/Confirmation of verification (level1) - RO.html'
+welcome_email_path = 'static/Welcome email (only registration) - RO.html'
+welcome_email_direct_verification_level_1_path = 'static/Welcome email direct verification level 1 - RO.html'
+reminder_email_for_verification_path = 'static/Reminder email for verification - RO.html'
+confirmation_level_2_path= 'static/Confirmation of verification (level2) - RO.html'
+confirmation_level_1_path = 'static/Confirmation of verification (level1) - RO.html'
 
 
 # Defined example routes for sending out the mails
