@@ -1,2 +1,14 @@
 sendgrid.env
-sendgrid.env
+gmail.env
+
+# This will exclude the files to not be uploaded in git as they could be personal/confidential
+/static/
+static/OKTO RO HTML (With Cards and Deep Links)
+*.html
+
+client_secret.json
+credentials.json
+token.json
+
+# A personal file that I would like to be excluded
+/app_ignored.py
